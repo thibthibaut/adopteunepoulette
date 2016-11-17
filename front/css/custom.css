@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.full-height{
+	height: 100vh;
+	margin: 0;
+}
+
+.half-height{
+	height: 50vh;
+	margin: 0;
+}
+.one-third-height{
+	height: 36vh;
+	margin: 0;
+}
+.two-third-height{
+	height: 64vh;
+	margin: 0;
+}
+.center{
+	text-align: center;
+}
+
+.offset-top{
+	margin-top: 20vh;
+}
+
+.vspace{
+	margin-top: 15pt;
+}
+
+.img-responsive{
+	height: auto;
+	max-width: 100%;
+}
+
+
+.poulailler-bg{
+  background-image: url(http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_1500,w_2000,f_auto,q_90/v1/878643/Capture_d_%C3%A9cran_2016-09-25_%C3%A0_18.06.41_rfevrg.png);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.btn-primary{
+ background-color: rgba(155,155,155,0.2);
+ border-color: #aaa;
+}
+
+.btn-primary:hover{
+ background-color: rgba(100,100,100,0.6);
+ border-color: #aaa;
+}
+.btn-primary:focus{
+ background-color: rgba(100,100,100,0.6);
+ border-color: #aaa;
+}
+.btn-primary:active{
+ background-color: rgba(100,100,100,0.6);
+ border-color: #aaa;
+}
+.btn-big{
+	font-size : 18pt;
+}
+
+/*.jumbotron {
+  background-image: url(https://static.fermedebeaumont.com/images/poules-coqs-race/poules-pondeuses-fermieres/poule-pondeuse-fermiere-rousse-elevage-vente.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.jumbotron-video{
+	background-color: rgba(1, 1, 1, 0);
+}
+
+#video-background { 
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width:100%;
+}
+
+#offers{
+	background-color: #f1a852;
+}
+
+#contact{
+	background: url('http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_1500,w_2000,f_auto,q_90/v1/878643/Capture_d_écran_2016-10-22_à_09.49.41_dl32er.png') no-repeat center center;
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#eggs{
+	background-color: #35393e;
+}
+
+#support{
+	background-color: #f1a852;
+}
+#blog{
+	background: url("http://uploads.strikinglycdn.com/static/backgrounds/nature/173.jpg") no-repeat center center;
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+#communication{
+	background-color: #35393e;
+}
+#footer{
+	background-color: #f1a852;
+}
