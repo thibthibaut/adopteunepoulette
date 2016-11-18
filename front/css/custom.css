@@ -3,6 +3,7 @@
 body{
 	color: white;
 	font-family: 'Roboto Condensed', sans-serif;
+	padding-top: 70px; /* cauz of navbar */
 }
 
 .full-height{
